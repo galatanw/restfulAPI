@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #abbaab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+main{
+    width: 50%;
+    margin-right:20% ;
+    margin-left:20% ;
+}
+#fileData , #fileData td{
+border: 2px double black;
+}
+#fileData td{
+    background: linear-gradient(to right, #29323c, #485563);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    color: #ffffff;    
+    transition: all 1s;
+}
+#fileData{
+width: 100%;
+background: linear-gradient(to right, #29323c, #485563);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+
+}
+#fileData tr{
+    padding: 4px;
+}
+.dataRow:hover{
+    transform: scale(3);
+    background: linear-gradient(to right, red, #485563) !important;/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    /* color: red !important; */
+    transform: translate3d(4px, -6px, 0);
+    box-shadow: -1px 1px  rgb(138, 9, 37) , -2px 2px  rgb(138, 9, 37) ,-3px 3px  rgb(138, 9, 37) , -4px 4px  rgb(138, 9, 37) , -5px 5px  rgb(138, 9, 37) ,-6px 6px  rgb(138, 9, 37);
+}
+#responseTable,#responseTable td{
+    border: 1px solid red;
+
+}
+
+

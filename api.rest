@@ -1,0 +1,30 @@
+DELETE http://localhost:8080/comments/0
+
+###
+GET  http://localhost:8080/comments/3
+
+
+###
+GET  http://localhost:8080/comments
+
+###
+POST http://localhost:8080/comments
+Content-Type: application/json
+
+{
+    "name":"gal",
+    "email":"g@g",
+    "message":"asd"
+}
+
+
+###
+PATCH  http://localhost:8080/comments/2
+Content-Type: application/json
+
+{
+    "name":"new",
+    "email":"g@g",
+    "message":"asd"
+}
+###
